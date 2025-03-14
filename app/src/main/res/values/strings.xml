@@ -2,5 +2,8 @@
     <string name="app_name">Zabello</string>
     <string name="welcome_text">Добро пожаловать в приложение для контроля параметров состояния вашего здоровья!</string>
     <string name="start_button">Начать</string>
-    <string name="registration">Регистрация</string>
+    <string name="registration1">ФИО</string>
+    <string name="registration2">Группа</string>
+    <string name="registration3">Возраст</string>
+    <string name="registration4">Оценка</string>
 </resources>
