@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Трекер здоровья</string>
+    <string name="welcome_text">Добро пожаловать!</string>
+    <string name="login_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="email_hint">Почта</string>
+    <string name="age_hint">Возраст</string>
+    <string name="login_button">Войти</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="next_button">Далее</string>
+    <string name="finish_button">Завершить регистрацию</string>
+    <string name="health_tracking_text">Отслеживание состояния здоровья</string>
+    <string name="details_button">Подробная информация</string>
+    <string name="detailed_info_text">Подробная информация</string>
+    <string name="back_button">Назад</string>
+</resources>
+

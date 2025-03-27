@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp"
+    android:background="@color/background_color">
+
+    <ImageView
+        android:id="@+id/healthImage"
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/pic2" />
+
+    <TextView
+        android:id="@+id/healthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/health_tracking_text"
+        android:textColor="@color/text_color"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/detailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/green1"
+        android:onClick="onDetailsClick"
+        android:text="@string/details_button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        android:background="@color/green1"
+        android:textColor="@color/white"
+        android:onClick="onBackClick" />
+
+</FrameLayout>
